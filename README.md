@@ -5,7 +5,7 @@ For run the solution is necessary node version >= 10.21
 
 ### `yarn start`
 
-Runs the app<br />
+Run the app<br />
 
 ### `yarn test`
 
@@ -15,5 +15,5 @@ See the section about [running tests](https://jestjs.io/docs/en/getting-started)
 See coverage tests in folder `coverage` after run the command <b>yarn test</b>.
 
 <h4 align="center">
-<img src="./assets/testeAutomatizados.png" width="250px" /><br>
+<img src="./assets/testeAutomatizados.png" width="500px" /><br>
 </h4>
