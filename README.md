@@ -1,7 +1,7 @@
 ## Merchant Guide to Galaxy
 Solution capable of calculating values of roman numbers and metals.
 
-For run the solution is necessary node version >= 10.21
+For run the solution is necessary node version >= 10.21. Before run the app execute the command `yarn` or `npm install` for install the dependencies.
 
 ### `yarn start`
 
