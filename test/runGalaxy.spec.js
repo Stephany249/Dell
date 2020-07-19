@@ -10,7 +10,7 @@ describe('Galaxy', () => {
   });
 
   it('shoud be able to return values roman numbers', () => {
-    const file = new readFile(__dirname  + '/../test.txt' );
+    const file = new readFile(__dirname  +  '/test.txt' );
     const text = file.content();
 
     const roman = start(text).romanValues;
@@ -27,7 +27,7 @@ describe('Galaxy', () => {
 
 
   it('shoud be able to test unit value of metals', () => {
-    const file = new readFile(__dirname  + '/../test.txt' );
+    const file = new readFile(__dirname  + '/test.txt' );
     const text = file.content();
 
     const itensValues = start(text).itensValues;
@@ -45,4 +45,18 @@ describe('Galaxy', () => {
     
     expect(itensValues).toEqual("Nem ideia do que isto significa!");
   });
+
+  it('should be able to return value of metal', () => {
+    const file = new readFile(__dirname  + '/test.txt' );
+    const text = file.content();
+
+
+    expect(start(text).returnValue).toContain('snob krok Gold custa 57800 créditos')
+  });
+
+  it('should be able to return unknown values', () => {
+    const itensValues = start(['quantos créditos são snob krok Silver ?']).returnValue;
+    
+    expect(itensValues).toEqual("Nem ideia do que isto significa!");
+  })
 })
