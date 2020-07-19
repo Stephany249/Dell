@@ -1,0 +1,16 @@
+{
+  "name": "DesafioDell",
+  "jest": {
+    "collectCoverage": true
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}
