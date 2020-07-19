@@ -15,5 +15,5 @@ See the section about [running tests](https://jestjs.io/docs/en/getting-started)
 See coverage tests in folder `coverage` after run the command <b>yarn test</b>.
 
 <h4 align="center">
-<img src="./assets/testeAutomatizados.png" width="500px" /><br>
+<img src="./assets/testeAutomatizados.png" width="700px" /><br>
 </h4>
